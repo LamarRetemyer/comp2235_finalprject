@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    font-family: 'Inter', sans-serif;
+    font-weight: 215;
+    background: #F3F4F6;
+    color: black;
+    letter-spacing: normal;
+}
+
+header{   
+    background-color: #1F2937;
+}
+
+.Logo{
+    width: 32.06px; 
+    height: 47.07px; 
+    padding-left: 50px;
+     
+}
+
+.DolphinCrm{
+    width: 178.77px;
+    height: 40.74px; 
+    left: 104.55px; 
+    top: 12.14px; 
+    font-weight: bold;
+    position: absolute; 
+    color: rgb(255, 255, 255); 
+    font-size: 24px;     
+    word-wrap: break-word;
+}
+
+.NewUser{
+    width: 185.79px; 
+    height: 51.78px; 
+    left: 318.53px; 
+    top: 125.45px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px;
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+label{
+    position: absolute; 
+    font-size: 16px; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.Homeimg{
+    width: 38.12px; 
+    height: 44.66px; 
+    left: 35.27px; 
+    top: 109.21px;
+    position: absolute;
+}
+.Home{
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 125.82px;
+}
+
+.Newcontactimg{
+    width: 41.25px; 
+    height: 41.28px; 
+    left: 38.30px; 
+    top: 171.51px; 
+    position: absolute;
+}
+
+.NewContact {
+    width: 132.09px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 187.45px;
+}
+
+.Usersimg {
+    width: 59px; 
+    height: 43px; 
+    left: 29.43px; 
+    top: 235.75px; 
+    position: absolute;
+}
+
+.Users{
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 250.33px; 
+    }
+
+.Logoutimg {
+    width: 46px; 
+    height: 40px; 
+    left: 35.93px; 
+    top: 309.21px; 
+    position: absolute;
+} 
+.Logout {
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 320.21px;     
+}
+
+.Line1{
+    width: 215.79px; 
+    height: 0px; 
+    left: 24.25px; 
+    top: 288.29px; 
+    position: absolute; 
+    border: 0.05px rgba(9, 9, 9, 0.3) solid;
+}
+
+.EmailAddress{
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 353.91px; 
+    top: 364.58px;     
+    font-family: 'Jaldi', sans-serif;                                                
+  
+
+}
+.Password{
+    width: 113.43px; 
+    height: 24.66px; 
+    left: 856.31px; 
+    top: 363.35px;    
+    font-family: 'Jaldi', sans-serif;  
+   
+}
+
+
+.Save {
+    width: 55.94px; 
+    height: 25.71px; 
+    top: 541.47px;
+    left: 1167.20px; 
+    position: absolute; 
+    background: #4F46E5;     
+    font-size: 16px; 
+    border-radius: 5px; 
+    color: #F3F4F6;
+    font-weight: 300;
+    opacity: 1;
+    word-wrap: break-word;
+}
+
+.FirstName{
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 353.91px; 
+    top: 239.32px;   
+    font-family: 'Jaldi', sans-serif;    
+}
+
+.Role{
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 353.91px; 
+    top: 489px;
+    font-family: 'Jaldi', sans-serif;  
+}
+
+.LastName{
+    width: 150.41px;
+    height: 22.19px;
+    left: 856.31px; 
+    top: 238.51px; 
+    font-family: 'Jaldi', sans-serif;  
+}
+
+.sidebar{
+    width: 260.13px; 
+    height: 946.14px; 
+    left: 0px; 
+    top: 52px; 
+    position: absolute; 
+    background: white;
+}
+.box{
+    width: 938.97px; 
+    height: 363.45px; 
+    left: 318.53px; 
+    top: 226.28px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 5px;
+}
+
+input{
+    width: 371.15px; 
+    height: 44.38px;
+    position: absolute; 
+    border-radius: 10px;
+    border: 1px rgb(17, 17, 17, 0.5) solid;
+    font-size: 16px;
+    font-weight: 540;
+}
+
+.firstname{
+    width: 368.02px; 
+    height: 43px; 
+    left: 354.48px; 
+    top: 278.75px;
+}
+.emailaddress{
+    width: 368.02px; 
+    height: 43px; 
+    left: 354.48px; 
+    top: 403.20px;
+}
+
+.lastname{
+    width: 368.02px; 
+    height: 43px; 
+    left: 856.31px; 
+    top: 278.75px;
+}
+
+.password{
+    width: 368.02px; 
+    height: 43px; 
+    left: 856.31px; 
+    top: 403.20px;
+}
+
+.dropdown{
+    width: 377.02px; 
+    height: 43px; 
+    left: 354.48px; 
+    top: 519.27px; 
+    position: absolute; 
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 5px; 
+    border: 0.1px black solid;
+}
+
+.SignUp{
+    width: 185.79px; 
+    height: 51.78px; 
+    left: 318.53px; 
+    top: 125.45px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px;
+    font-weight: 800; 
+    word-wrap: break-word;
+}

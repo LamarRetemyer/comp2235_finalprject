@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/jaldi" rel="stylesheet">   
+    <link rel="stylesheet" href="signup.php">                         
+    <title>Sign Up</title>
+</head>
+<body>
+    <header> 
+        <img class="Logo"src="images/Logo.png" />
+        <div class="DolphinCrm">Dolphin CRM</div>
+    </header>    
+    <div class="box"></div>
+   
+   
+    <!-- Title -->
+    <h1 class="NewUser">New User</h1>
+
+    <!-- Content form -->
+    <form action="signup.php" method="post">
+
+        <label class="FirstName"">First Name</label>
+        <input class ="firstname" type="text" name="firstname">
+
+        <label class="EmailAddress">Email address</label>
+        <input class= "emailaddress" type ="email" name="email">
+
+        <label class="Role">Role</label>
+        <select class="dropdown" name="dropdown">
+            <option value="admin">Administrator</option>
+            <option value="user">User</option>
+        </select>
+
+        <label class="LastName">Last Name</label>
+        <input class="lastname" type="text" name="lastname">
+
+        <label class="Password">Password</label>
+        <input class="password" type="password" name="password">
+
+        <input class="Save" type="submit" value="Save">
+
+    </form>
+
+   
+    
+
+    <!-- Sidebar Contents -->
+    <div class="sidebar"></div>
+    <label class="Users">Users</label>
+    <img class="Newcontactimg"src="images/NewContactImg.png" />
+    <img class="Homeimg" src="images/Homeimg.png" />
+    <img class="Usersimg"  src="images/Usersimg.png" />
+    <label class="Home">Home</label>
+    <label class="NewContact">New Contact</label>
+    <div class="Line1"></div>
+    <img class="Logoutimg" src="images/Logoutimg.png"/>
+    <label class="Logout">Logout</label>
+    </div>
+
+   
+</body>
+</html>
