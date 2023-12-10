@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    font-family: 'Inter', sans-serif;
+    font-weight: 215;
+    background: #F3F4F6;
+    color: black;
+    letter-spacing: normal;
+}
+
+header{   
+    background-color: #1F2937;
+}
+
+.Logo{
+    width: 32.06px; 
+    height: 47.07px; 
+    padding-left: 50px;
+
+}
+
+.DolphinCrm{
+    width: 178.77px;
+    height: 40.74px; 
+    left: 104.55px; 
+    top: 12.14px; 
+    font-weight: bold;
+    position: absolute; 
+    color: rgb(255, 255, 255); 
+    font-size: 24px;     
+    word-wrap: break-word;
+}
+
+.Dashboard{
+    width: 200.79px; 
+    height: 51.78px; 
+    left: 318.53px; 
+    top: 125.45px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px;
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+label{
+    position: absolute; 
+    font-size: 16px; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.Homeimg{
+    width: 38.12px; 
+    height: 44.66px; 
+    left: 35.27px; 
+    top: 109.21px;
+    position: absolute;
+}
+.Home{
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 125.82px;
+}
+
+.Newcontactimg{
+    width: 41.25px; 
+    height: 41.28px; 
+    left: 38.30px; 
+    top: 171.51px; 
+    position: absolute;
+}
+
+.NewContact {
+    width: 132.09px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 187.45px;
+}
+
+.Usersimg {
+    width: 59px; 
+    height: 43px; 
+    left: 29.43px; 
+    top: 235.75px; 
+    position: absolute;
+}
+
+.Users{
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 250.33px; 
+    }
+
+.Logoutimg {
+    width: 46px; 
+    height: 40px; 
+    left: 35.93px; 
+    top: 309.21px; 
+    position: absolute;
+} 
+.Logout {
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 320.21px;     
+}
+
+.Line1{
+    width: 215.79px; 
+    height: 0px; 
+    left: 24.25px; 
+    top: 288.29px; 
+    position: absolute; 
+    border: 0.05px rgba(9, 9, 9, 0.3) solid;
+}
+
+.sidebar{
+    width: 260.13px; 
+    height: 946.14px; 
+    left: 0px; 
+    top: 52px; 
+    position: absolute; 
+    background: white;
+}
+
+.box{
+    width: 1120px; 
+    height: 725px; 
+    left: 276.53px; 
+    top: 215px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 5px;
+}
+
+input{
+    width: 371.15px; 
+    height: 44.38px;
+    position: absolute; 
+    border-radius: 10px;
+    border: 1px rgb(17, 17, 17, 0.5) solid;
+    font-size: 16px;
+    font-weight: 540;
+}
+
+.NewContactB {
+    width:246px; 
+    height: 52px; 
+    left: 284px; 
+    top: 144px; 
+    position: absolute;  
+    font-size: 36px;  
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.Email {
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 342px; 
+    top: 466px; 
+    position: absolute;   
+    font-family: Jaldi;  
+  }
+  
+  .Telephone {
+    width: 113.43px; 
+    height: 24.66px; 
+    left: 843px; 
+    top: 465px; 
+    position: absolute;  
+    font-family: Jaldi; 
+  }
+  
+  
+  .Company{
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 342px; 
+    top: 578px; 
+    position: absolute;  
+    font-family: Jaldi;   
+  } 
+  
+  .LastName { 
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 837px; 
+    top: 365px; 
+    position: absolute;  
+    font-family: Jaldi;   
+  }
+  
+  
+  .FirstName{
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 342px; 
+    top: 353px; 
+    position: absolute; 
+    font-family: Jaldi;   
+  }
+  
+  .Type { 
+    width: 212px; 
+    height: 39px; 
+    left: 837px; 
+    top: 578px; 
+    position: absolute;  
+    font-family: Jaldi; 
+  }
+  
+  .Title {
+    width: 99px; 
+    height: 9px; 
+    left: 343px; 
+    top: 248px; 
+    position: absolute;   
+    font-family: Jaldi; 
+  }
+
+  .Save{
+    width: 60.26px; 
+    height: 18.71px; 
+    left: 1208px; 
+    top: 864px; 
+    position: absolute; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+     background: #4F46E5; 
+    border-radius: 5px; 
+    border: 1px black solid;
+  }
+  
+  
+  .firstname {
+    width: 431px; 
+    height: 44px; 
+    left: 342px; 
+    top: 408px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+  }
+  .email {
+    width: 431px; 
+    height: 44px; 
+    left: 342px; 
+    top: 507px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+  }
+
+  .company {
+    width: 431px; 
+    height: 44px; 
+    left: 342px; 
+    top: 625px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+  }
+  
+  .assignedto {
+    width: 431px; 
+    height: 44px; 
+    left: 342px; 
+    top: 779px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+  }
+  
+  
+  
+  .lastname {
+    width: 431px; 
+    height: 44px; 
+    left: 837px; 
+    top: 408px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+  }
+  
+  .telephone {
+    width: 431px; 
+    height: 44px; 
+    left: 837px; 
+    top: 507px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+  }
+  
+  .type{
+    width: 431px; 
+    height: 44px; 
+    left: 837px; 
+    top: 625px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+  }
+  
+  .title{
+    width: 112px; 
+    height: 44px; 
+    left: 342px; 
+    top: 279px;
+    position: absolute;  
+    background: rgba(217, 217, 217, 0); 
+    border-radius: 10px; 
+    border: 1px black solid;
+}
+
+.AssignedTo{
+    width: 217px; 
+    height: 22px; 
+    left: 342px; 
+    top: 724px; 
+    position: absolute;
+    font-family: Jaldi;
+  }

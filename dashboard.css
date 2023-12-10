@@ -32,8 +32,8 @@ header{
     word-wrap: break-word;
 }
 
-.NewUser{
-    width: 185.79px; 
+.Dashboard{
+    width: 200.79px; 
     height: 51.78px; 
     left: 318.53px; 
     top: 125.45px; 
@@ -118,64 +118,6 @@ label{
     border: 0.05px rgba(9, 9, 9, 0.3) solid;
 }
 
-.EmailAddress{
-    width: 150.41px; 
-    height: 22.19px; 
-    left: 353.91px; 
-    top: 364.58px;     
-    font-family: 'Jaldi', sans-serif;                                                
-  
-
-}
-.Password{
-    width: 113.43px; 
-    height: 24.66px; 
-    left: 856.31px; 
-    top: 363.35px;    
-    font-family: 'Jaldi', sans-serif;  
-   
-}
-
-
-.Save {
-    width: 55.94px; 
-    height: 25.71px; 
-    top: 541.47px;
-    left: 1167.20px; 
-    position: absolute; 
-    background: #4F46E5;     
-    font-size: 16px; 
-    border-radius: 5px; 
-    color: #F3F4F6;
-    font-weight: 300;
-    opacity: 1;
-    word-wrap: break-word;
-}
-
-.FirstName{
-    width: 150.41px; 
-    height: 22.19px; 
-    left: 353.91px; 
-    top: 239.32px;   
-    font-family: 'Jaldi', sans-serif;    
-}
-
-.Role{
-    width: 150.41px; 
-    height: 22.19px; 
-    left: 353.91px; 
-    top: 489px;
-    font-family: 'Jaldi', sans-serif;  
-}
-
-.LastName{
-    width: 150.41px;
-    height: 22.19px;
-    left: 856.31px; 
-    top: 238.51px; 
-    font-family: 'Jaldi', sans-serif;  
-}
-
 .sidebar{
     width: 260.13px; 
     height: 946.14px; 
@@ -185,75 +127,120 @@ label{
     background: white;
 }
 .box{
-    width: 938.97px; 
-    height: 363.45px; 
-    left: 318.53px; 
+    width: 1110px; 
+    height: 503px; 
+    left: 276.53px; 
     top: 226.28px; 
     position: absolute; 
     background: white; 
     border-radius: 5px;
 }
 
-input{
-    width: 371.15px; 
-    height: 44.38px;
-    position: absolute; 
-    border-radius: 10px;
-    border: 1px rgb(17, 17, 17, 0.5) solid;
-    font-size: 16px;
-    font-weight: 540;
-}
-
-.firstname{
-    width: 368.02px; 
-    height: 43px; 
-    left: 354.48px; 
-    top: 278.75px;
-}
-.emailaddress{
-    width: 368.02px; 
-    height: 43px; 
-    left: 354.48px; 
-    top: 403.20px;
-}
-
-.lastname{
-    width: 368.02px; 
-    height: 43px; 
-    left: 856.31px; 
-    top: 278.75px;
-}
-
-.password{
-    width: 368.02px; 
-    height: 43px; 
-    left: 856.31px; 
-    top: 403.20px;
-}
-
-.dropdown{
-    width: 377.02px; 
-    height: 43px; 
-    left: 354.48px; 
-    top: 519.27px; 
-    position: absolute; 
-    background: rgba(217, 217, 217, 0); 
-    border-radius: 5px; 
-    border: 0.1px black solid;
-}
-
-.SignUp{
-    width: 185.79px; 
-    height: 51.78px; 
-    top: 40.45px; 
-    position: absolute; 
-    color: black; 
-    font-size: 36px;
-    font-weight: 800; 
-    word-wrap: break-word;
-}
-
-.login {
-    top: 160px;
+.Filter {
+    width: 27px;
+    height: 29px;
+    left: 282px;
+    top: 234px;
     position: absolute;
+    
+ }
+
+.FilterBy {
+    width: 89px;
+    height: 18px;
+    left: 319px;
+    top: 240px;
+    position: absolute;
+}
+
+.All {
+    width: 63px;
+    height: 17px;
+    left: 413px;
+    top: 240px;
+    position: absolute;
+ }
+
+ .SalesLeads {
+    width: 96px;
+    height: 24px;
+    left: 486px;
+    top: 240px;
+    position: absolute;
+    color: black;
+   
+}
+
+.Support {
+    width: 89px;
+    height: 11px;
+    left: 628px;
+    top: 240px;
+    position: absolute;
+
+}
+
+.AssignedToMe {
+    width: 136px;
+    height: 15px;
+    left: 763px;
+    top: 240px;
+    position: absolute;
+}
+
+.Name {
+    width: 121px;
+    height: 21px;
+    left: 292px;
+    top: 290px;
+    position: absolute;
+}
+
+.Email {
+    width: 146px;
+    height: 19px;
+    left: 527px;
+    top: 290px;
+    position: absolute;
+}
+
+.Company {
+    width: 142px;
+    height: 21px;
+    left: 788px;
+    top: 290px;
+    position: absolute;
+}
+
+.Type {
+    width: 163px;
+    height: 24px;
+    left: 1064px;
+    top: 290px;
+    position: absolute;
+}
+
+.tablerow{
+    width: 1110px;
+    height: 45px;
+    left: 277px;
+    top: 283px;
+    position: absolute;
+    background: #D9D9D9;
+  }
+
+.AddContact {
+    width: 123px; 
+    height: 35px;
+    left: 1238px; 
+    top: 160px; 
+    position: absolute;
+    color: white; 
+    font-size: 16px; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    background: #4F46E5; 
+    border-radius: 5px; 
+    border: 1px black solid;
+
 }

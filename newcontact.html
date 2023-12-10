@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newcontact.css">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/jaldi" rel="stylesheet">   
+                           
+    <title>New Contact</title>
+</head>
+<body>
+    <header> 
+        <img class="Logo"src="images/Logo.png" />
+        <div class="DolphinCrm">Dolphin CRM</div>
+    </header>    
+    <div class="box"></div>
+
+
+    <!-- Title -->
+    <h1 class="NewContactB">New Contact</h1>
+
+    <!-- Content form -->
+    <form action="signup.php" method="post">
+
+        <label class="Title">Title</label>
+        <select class="title" name="title">
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mrs.">Mrs.</option>
+        </select>
+
+        <label class="FirstName">First Name</label>
+        <input class ="firstname" type="text" name="firstname">
+
+        <label class="LastName">Last Name</label>
+        <input class="lastname" type="text" name="lastname">
+
+        <label class="Email">Email</label>
+        <input class= "email" type ="email" name="email">
+
+
+        <label class="Telephone">Telephone</label>
+        <input class="telephone" type="telephone" name="telephone">
+
+        <label class="Company">Company</label>
+        <input class="company" type ="company" name="company">
+
+        <label class="Type">Type</label>
+        <select class= "type" name="type">
+            <option value="SalesLead.">Sales Lead</option>
+            <option value="Support">Support</option>
+
+        
+
+        </select>
+
+        <label class="AssignedTo">Assigned To</label>
+        <select class="assignedto" name="assignedto">
+
+        <input class="Save" type="submit" value="Save">
+
+    </form>
+
+
+
+
+    <!-- Sidebar Contents -->
+    <div class="sidebar"></div>
+    <label class="Users">Users</label>
+    <img class="Newcontactimg" src="images/NewContactImg.png" />
+    <img class="Homeimg" src="images/Homeimg.png" />
+    <img class="Usersimg"  src="images/Usersimg.png" />
+    <label class="Home">Home</label>
+    <label class="NewContact">New Contact</label>
+    <div class="Line1"></div>
+    <img class="Logoutimg" src="images/Logoutimg.png"/>
+    <label class="Logout">Logout</label>
+    </div>
+    <script src="sidebar.js"></script>
+
+</body>
+</html>
