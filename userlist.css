@@ -9,7 +9,7 @@ body{
     letter-spacing: normal;
 }
 
-header{ 
+header{   
     background-color: #1F2937;
 }
 
@@ -17,7 +17,7 @@ header{
     width: 32.06px; 
     height: 47.07px; 
     padding-left: 50px;
-     
+
 }
 
 .DolphinCrm{
@@ -142,7 +142,7 @@ label{
     left: 282px;
     top: 234px;
     position: absolute;
-    
+
  }
 
 .FilterBy {
@@ -168,7 +168,7 @@ label{
     top: 240px;
     position: absolute;
     color: black;
-   
+
 }
 
 .Support {
@@ -192,7 +192,7 @@ label{
     width: 121px;
     height: 21px;
     left: 292px;
-    top: 290px;
+    top: 240px;
     position: absolute;
 }
 
@@ -200,7 +200,7 @@ label{
     width: 146px;
     height: 19px;
     left: 527px;
-    top: 290px;
+    top: 240px;
     position: absolute;
 }
 
@@ -208,7 +208,7 @@ label{
     width: 142px;
     height: 21px;
     left: 788px;
-    top: 290px;
+    top: 240px;
     position: absolute;
 }
 
@@ -216,32 +216,20 @@ label{
     width: 163px;
     height: 24px;
     left: 1064px;
-    top: 290px;
+    top: 240px;
     position: absolute;
 }
 
-table {
+.tablerow{
     width: 1110px;
     height: 45px;
     left: 277px;
-    top: 283px;
+    top: 223px;
     position: absolute;
     background: #D9D9D9;
-    border-collapse: collapse;
-    margin-top: 20px;
-    text-align: center;
-}
+  }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-
-th {
-    background-color: #f2f2f2;
-} 
-.AddContact {
+.AddUser {
     width: 123px; 
     height: 35px;
     left: 1238px; 
@@ -256,5 +244,3 @@ th {
     border: 1px black solid;
 
 }
-
-

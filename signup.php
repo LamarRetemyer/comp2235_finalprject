@@ -31,13 +31,13 @@ if (! preg_match("/[a-z]/i", $password)) {
 if (! preg_match("/[0-9]/", $password)) {
     die("Password must contain at least one number");
 }
-
+$createdat =  date("Y-m-d H:i:s");
 $password_hash = password_hash($password, PASSWORD_DEFAULT);
 
 $mysqli = require __DIR__ . "/database.php";
 
-$sql = "INSERT INTO user (firstname, lastname, email, password_hash, Role)
-        VALUES (?, ?, ?, ?, ?)";
+$sql = "INSERT INTO user (firstname, lastname, email, password_hash, Role, created_at)
+        VALUES (?, ?, ?, ?, ?, ?)";
 
 $stmt = $mysqli->stmt_init();
 
@@ -45,12 +45,13 @@ if ( ! $stmt->prepare($sql)) {
     die("SQL error: " . $mysqli->error);
 }
 
-$stmt->bind_param("sssss", 
+$stmt->bind_param("ssssss", 
                 $firstname, 
                 $lastname,
                 $emailaddress,
                 $password_hash,
-                $dropdown);
+                $dropdown,
+                $createdat);
 
 if ($stmt->execute()) {
 

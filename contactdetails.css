@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    font-family: 'Inter', sans-serif;
+    font-weight: 215;
+    background: #F3F4F6;
+    color: black;
+    letter-spacing: normal;
+  }
+  
+  header{   
+    background-color: #1F2937;
+  }
+  
+  
+  .Logo{
+    width: 32.06px; 
+    height: 47.07px; 
+    padding-left: 50px;
+  
+  }
+  
+  .DolphinCrm{
+    width: 178.77px;
+    height: 40.74px; 
+    left: 104.55px; 
+    top: 12.14px; 
+    font-weight: bold;
+    position: absolute; 
+    color: rgb(255, 255, 255); 
+    font-size: 24px;     
+    word-wrap: break-word;
+  }
+  
+  .Dashboard{
+    width: 200.79px; 
+    height: 51.78px; 
+    left: 318.53px; 
+    top: 125.45px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px;
+    font-weight: 800; 
+    word-wrap: break-word;
+  }
+  
+  label{
+    position: absolute; 
+    font-size: 20px; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+  
+  .ProfilePic{
+    width: 45.50px; 
+    height: 45.50px; 
+    left: 277px; 
+    top: 165px; 
+    position: absolute
+  }
+  
+  .Homeimg{
+    width: 38.12px; 
+    height: 44.66px; 
+    left: 35.27px; 
+    top: 109.21px;
+    position: absolute;
+  }
+  
+  .Home{
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 125.82px;
+  }
+  
+  .NewContactimg {
+    width: 41.25px; 
+    height: 41.28px; 
+    left: 38.30px; 
+    top: 171.51px; 
+    position: absolute;
+  }
+  
+  .NewContact {
+    width: 132.09px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 187.45px;
+  }
+  
+  .NotesSymbol{
+    width: 25.50px; 
+    height: 27px; 
+    left: 332px; 
+    top: 592px; 
+    position: absolute
+  }
+  
+  .Usersimg{
+    width: 59px; 
+    height: 43px; 
+    left: 29.43px; 
+    top: 235.75px; 
+    position: absolute;
+  }
+  
+  .Users{
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 250.33px; 
+  }
+  
+  .Logoutimg{
+    width: 46px; 
+    height: 40px; 
+    left: 35.93px; 
+    top: 309.21px; 
+    position: absolute;
+  } 
+  
+  .Logout{
+    width: 77.16px; 
+    height: 27.83px; 
+    left: 96.83px; 
+    top: 320.21px;     
+  }
+  
+  .Line1{
+    width: 215.79px; 
+    height: 0px; 
+    left: 24.25px; 
+    top: 288.29px; 
+    position: absolute; 
+    border: 0.05px rgba(9, 9, 9, 0.3) solid;
+  }
+  
+  .Line2{
+    width: 1113px; 
+    height: 0px; 
+    left: 284px; 
+    top: 655px; 
+    position: absolute; 
+    border: 0.50px black solid
+  }
+  
+  .sidebar{
+    width: 260.13px; 
+    height: 946.14px; 
+    left: 0px; 
+    top: 52px; 
+    position: absolute; 
+    background: white;
+  }
+  
+  .box{
+    width: 1120px; 
+    height: 258px; 
+    left: 277px; 
+    top: 215px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 5px;
+  }
+  
+  .box2{
+    width: 1120px; 
+    height: 400px; 
+    left: 284px; 
+    top: 568px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 5px;
+  
+  }
+  
+  .Notes{
+    width: 97px; 
+    height: 22px; 
+    left: 358px; 
+    top: 592px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Jaldi; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  
+  }
+  
+  label{
+    position: absolute; 
+    font-size: 16px; 
+    font-weight: 700; 
+    word-wrap: break-word;
+  }
+  
+  input{
+    width: 371.15px; 
+    height: 44.38px;
+    position: absolute; 
+    border-radius: 10px;
+    border: 1px rgb(17, 17, 17, 0.5) solid;
+    font-size: 16px;
+    font-weight: 540;
+  }
+  
+  .ContactInfo{
+    width: 246px; 
+    height: 52px; 
+    left: 332px; 
+    top: 147px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 800; 
+    word-wrap: break-word 
+  }
+  
+  .Email{
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 332px; 
+    top: 264px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Jaldi; 
+    font-weight: 400; 
+    word-wrap: break-word  
+  }
+  
+  .Telephone{
+    width: 113.43px; 
+    height: 24.66px; 
+    left: 822px; 
+    top: 263px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Jaldi; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+  
+  .AssignedTo{
+    width: 217px; 
+    height: 22px; 
+    left: 822px; 
+    top: 378px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Jaldi; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  
+  .Company{
+    width: 150.41px; 
+    height: 22.19px; 
+    left: 332px; 
+    top: 379px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Jaldi; 
+    font-weight: 400; 
+    word-wrap: break-word  
+  } 
+  
+  .LastName{ 
+  width: 150.41px; 
+  height: 22.19px; 
+  left: 837px; 
+  top: 365px; 
+  position: absolute;  
+  font-family: Jaldi;   
+  }
+  
+  
+  .FirstName{
+  width: 150.41px; 
+  height: 22.19px; 
+  left: 342px; 
+  top: 353px; 
+  position: absolute; 
+  font-family: Jaldi;   
+  }
+  
+  .Type{ 
+  width: 212px; 
+  height: 39px; 
+  left: 856px; 
+  top: 578px; 
+  position: absolute;  
+  font-family: Jaldi; 
+  }
+  
+  .Title {
+  width: 99px; 
+  height: 9px; 
+  left: 343px; 
+  top: 248px; 
+  position: absolute;   
+  font-family: Jaldi; 
+  }
+  
+  .AddNote{
+  width: 103px; 
+  height: 32.44px; 
+  left: 1208px; 
+  top: 864px; 
+  position: absolute; 
+  color: white; 
+  font-size: 16px; 
+  font-weight: 600; 
+  word-wrap: break-word;
+  background: #4F46E5; 
+  border-radius: 5px; 
+  border: 1px black solid;
+  }
+  
+  .AddANote{
+    width: 250px; 
+    height: 27px; 
+    left: 284px; 
+    top: 852px; 
+    position: absolute; 
+    color: black; 
+    font-size: 16px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+  }
+  
+  .addanote{
+    width: 844px; 
+    height: 58px; 
+    left: 290px; 
+    top: 879px; 
+    position: absolute; 
+    background: white
+  }
+  
+  .AssignToMe{
+    width: 184px; 
+    height: 32px; 
+    left: 950px; 
+    top: 150px; 
+    position: absolute; 
+    background: #46E569;
+    border-radius: 5px; 
+    border: 1px black solid
+  }
+  
+  .AssignToMePic{
+    width: 28.50px; 
+    height: 24.50px; 
+    left: 955px; 
+    top: 154px; 
+    position: absolute
+  }
+  
+  .SwitchToSalesLead{
+    width: 233px; 
+    height: 32px; 
+    left: 1156px; 
+    top: 150px; 
+    position: absolute; 
+    background: #D3E546; 
+    border-radius: 5px; 
+    border: 1px black solid
+  }
+  
+  
+  
