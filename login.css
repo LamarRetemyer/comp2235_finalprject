@@ -39,7 +39,7 @@ header{
     width: 122.29px; 
     height: 51.78px; 
     left: 645.63px; 
-    top: 201.35px; 
+    top: 180.35px; 
     font-size: 36px;
     font-weight: bold;
     position: absolute; 
@@ -67,7 +67,16 @@ input{
     position: absolute; 
     color: black;       
 }
-
+.pasword{
+    left: 402.91px; 
+    top:370.48px;
+    position:absolute;
+}
+.Email{
+    left: 402.91px; 
+    top:270.48px;
+    position:absolute;
+}
 .LoginB {
     
     opacity: 1;
